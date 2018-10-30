@@ -8,12 +8,10 @@ public class User {
 	private String name;
 	private String mail;
 	private List<Integer> hobbyList;
-	private Integer age;
 
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", name=" + name + ", mail=" + mail + ", hobbyList=" + hobbyList + ", age=" + age
-				+ "]";
+		return "User [id=" + id + ", name=" + name + ", mail=" + mail + ", hobbyList=" + hobbyList + "]";
 	}
 
 	public Integer getId() {
@@ -47,13 +45,4 @@ public class User {
 	public void setHobbyList(List<Integer> hobbyList) {
 		this.hobbyList = hobbyList;
 	}
-
-	public Integer getAge() {
-		return age;
-	}
-
-	public void setAge(Integer age) {
-		this.age = age;
-	}
-
 }
