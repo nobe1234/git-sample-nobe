@@ -7,6 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GitSampleNobeApplication {
 
 	public static void main(String[] args) {
+		//デプロイとサーバ起動時にコンソールに出力する。
+		System.out.println("デプロイとサーバ起動を行います。");
 		SpringApplication.run(GitSampleNobeApplication.class, args);
+	
+	
 	}
 }
