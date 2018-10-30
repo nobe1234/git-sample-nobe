@@ -9,6 +9,16 @@ public class Car {
 	 * スピード
 	 */
 	private Integer spped;
+	private String bodyColor;
+	
+
+	public String getBodyColor() {
+		return bodyColor;
+	}
+
+	public void setBodyColor(String bodyColor) {
+		this.bodyColor = bodyColor;
+	}
 
 	public Integer getSpped() {
 		return spped;
